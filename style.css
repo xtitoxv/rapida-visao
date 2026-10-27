@@ -117,9 +117,9 @@ ul {
 }
 
 .logo-img {
-    height: 95px;
+    height: 114px;
     width: auto;
-    max-width: 260px;
+    max-width: 312px;
     object-fit: contain;
 }
 
@@ -552,13 +552,13 @@ ul {
 }
 
 .footer-logo {
-    height: 80px;
+    height: 96px;
     width: auto;
     margin: 0 auto 1rem;
     background: white;
     padding: 0.5rem 1rem;
     border-radius: 8px;
-    max-width: 230px;
+    max-width: 276px;
     object-fit: contain;
 }
 
@@ -680,8 +680,8 @@ ul {
     }
     
     .logo-img {
-        height: 75px;
-        max-width: 210px;
+        height: 90px;
+        max-width: 252px;
     }
     
     .hero {
