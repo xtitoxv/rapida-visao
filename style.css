@@ -387,22 +387,25 @@ ul {
 
 .pricing-image-wrap {
     width: 100%;
-    height: 180px;
+    height: auto;
     margin: -2rem -1.5rem 1.25rem -1.5rem;
     overflow: hidden;
-    background: #f8f8f8;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .pricing-image {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-height: 260px;
+    object-fit: contain;
     object-position: center;
+    display: block;
     transition: transform 0.3s ease;
 }
 
 .pricing-card:hover .pricing-image {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .pricing-title {
@@ -759,6 +762,14 @@ ul {
     
     .pricing-card {
         padding: 2rem 1.25rem;
+    }
+    
+    .pricing-image-wrap {
+        margin: -2rem -1.25rem 1.25rem -1.25rem;
+    }
+    
+    .pricing-image {
+        max-height: 220px;
     }
     
     .pricing-title {
