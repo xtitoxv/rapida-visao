@@ -392,20 +392,22 @@ ul {
     overflow: hidden;
     background: #ffffff;
     border-bottom: 1px solid #f0f0f0;
+    padding: 0.75rem 1rem;
 }
 
 .pricing-image {
     width: 100%;
     height: auto;
-    max-height: 260px;
+    max-height: 320px;
     object-fit: contain;
     object-position: center;
     display: block;
+    margin: 0 auto;
     transition: transform 0.3s ease;
 }
 
 .pricing-card:hover .pricing-image {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .pricing-title {
@@ -766,10 +768,11 @@ ul {
     
     .pricing-image-wrap {
         margin: -2rem -1.25rem 1.25rem -1.25rem;
+        padding: 0.5rem 0.75rem;
     }
     
     .pricing-image {
-        max-height: 220px;
+        max-height: 260px;
     }
     
     .pricing-title {
