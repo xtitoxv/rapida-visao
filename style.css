@@ -333,6 +333,63 @@ ul {
     margin-top: 2rem;
 }
 
+/* Paint Demo Section */
+.paint-demo {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #111111 0%, #1a1a1a 100%);
+}
+
+.paint-demo-card {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: 3rem;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.paint-demo-media {
+    display: flex;
+    justify-content: center;
+}
+
+.paint-demo-video {
+    width: 100%;
+    max-width: 380px;
+    aspect-ratio: 472 / 850;
+    object-fit: contain;
+    display: block;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+.paint-demo-eyebrow {
+    display: inline-block;
+    color: #f59e0b;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+.paint-demo-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.paint-demo-text {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: #e5e5e5;
+    margin-bottom: 1.75rem;
+}
+
 /* Services Section */
 .services {
     padding: 4rem 0;
@@ -882,12 +939,34 @@ ul {
     }
     
     .about,
+    .paint-demo,
     .services,
     .pricing,
     .how-it-works,
     .opportunity,
     .contact {
         padding: 3rem 0;
+    }
+    
+    .paint-demo-card {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .paint-demo-video {
+        max-width: 300px;
+    }
+    
+    .paint-demo-content {
+        text-align: center;
+    }
+    
+    .paint-demo-title {
+        font-size: 1.75rem;
+    }
+    
+    .paint-demo-text {
+        font-size: 1.05rem;
     }
     
     .services-grid {
