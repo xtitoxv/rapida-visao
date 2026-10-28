@@ -117,9 +117,9 @@ ul {
 }
 
 .logo-img {
-    height: 140px;
+    height: 210px;
     width: auto;
-    max-width: 380px;
+    max-width: 570px;
     object-fit: contain;
 }
 
@@ -955,8 +955,8 @@ ul {
     }
     
     .logo-img {
-        height: 110px;
-        max-width: 300px;
+        height: 165px;
+        max-width: 450px;
     }
     
     .hero {
