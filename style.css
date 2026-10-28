@@ -586,6 +586,72 @@ ul {
     color: #f59e0b;
 }
 
+/* Opportunity */
+.opportunity {
+    padding: 4rem 0;
+    background: #f8f8f8;
+}
+
+.opportunity-card {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: stretch;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.opportunity-image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: #111111;
+}
+
+.opportunity-image {
+    width: 100%;
+    max-height: 540px;
+    object-fit: contain;
+    display: block;
+}
+
+.opportunity-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 3rem 3rem 2.5rem;
+}
+
+.opportunity-eyebrow {
+    display: inline-block;
+    color: #dc2626;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+.opportunity-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.opportunity-text {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #333333;
+    margin-bottom: 1.75rem;
+}
+
 /* Contact */
 .contact {
     padding: 4rem 0;
@@ -819,6 +885,7 @@ ul {
     .services,
     .pricing,
     .how-it-works,
+    .opportunity,
     .contact {
         padding: 3rem 0;
     }
@@ -872,6 +939,26 @@ ul {
     
     .attendance-location {
         font-size: 1.25rem;
+    }
+    
+    .opportunity-card {
+        grid-template-columns: 1fr;
+    }
+    
+    .opportunity-image {
+        max-height: 420px;
+    }
+    
+    .opportunity-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .opportunity-title {
+        font-size: 1.75rem;
+    }
+    
+    .opportunity-text {
+        font-size: 1rem;
     }
     
     .contact-info {
